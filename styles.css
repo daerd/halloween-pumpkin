@@ -25,10 +25,10 @@ body {
   border-radius: 28% 72% 33% 67% / 21% 83% 17% 79% ;
   transform: rotate(13deg);
   box-shadow:
-    -80px 5px 0px -2px #f8931f,   /* First oval part duplication. Positioned in the left. */
-    -40px 4px 0px -1px #fbb03b,   /* Duplication 2, center left. */
-    40px -15px 0px  0px #f87700,  /* Duplication 3, center right. */
-    80px -35px 0px -2px #f8931f;  /* Duplication 4, right-right. */
+    -40px 4px 0px -1px #fbb03b,   /* First oval part duplication. positioned to the center left. */
+    40px -15px 0px  0px #f87700,  /* Duplication 2, center-right. */
+    80px -35px 0px -2px #f8931f, /* Duplication 3, right-right. */
+    -80px 5px 0px -2px #f8931f;  /* Duplication 4, left-left. */
 }
 
 .stem {
